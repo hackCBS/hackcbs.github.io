@@ -1,0 +1,242 @@
+<!doctype>
+<html lang="en-us" class="js cssanimations gr__themehelite_com">
+
+<head>
+    <meta charset="utf-8">
+    <title>hackCBS 1.0</title>
+    <meta name="description" content="The description should optimally be between 150-160 characters.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hackCBS 1.0 Tech Team">
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- ============== Resources style ============== -->
+    <link rel="stylesheet" href="css/style-minimal-flat-countdown.css">
+
+    <!-- Modernizr runs quickly on page load to detect features -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body data-gr-c-s-loaded="true" class="mCustomScrollbar _mCS_1">
+    <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" tabindex="0">
+        <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px;" dir="ltr">
+
+            <!-- Page preloader -->
+            <div id="loading" class="" style="opacity: 0; display: none;">
+                <div id="preloader" class="" style="opacity: 0;">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div id="particles-js">
+                <canvas class="particles-js-canvas-el" width="435" height="635" style="width: 100%; height: 100%;"></canvas>
+            </div>
+
+            <!-- Overlay -->
+            <div class="global-overlay" style="opacity: 1; transform: translateX(100%);">
+                <div class="overlay skew-part"></div>
+            </div>
+
+            <!-- START - Home/Left Part -->
+            <section id="left-side" class="minimal-phone" style="opacity: 1;">
+
+                <!-- Your logo -->
+                <img src="img/logo.png" alt="" class="brand-logo mCS_img_loaded">
+
+                <div class="content">
+
+                    <h1 class="text-intro animated-middle fadeInUp">Our website is launching in
+                        <div id="getting-started"></div>
+                    </h1>
+
+                    <h2 class="text-intro animated-middle fadeInUp">Witness this October, the inaugral of DU's first-ever hackathon at Shaheed Sukhdev College of Business Studies, India - in its full glory.
+                        <br>
+                        <br> We invite all students, developers, designers and volunteers to participate and make this event
+                        a history.</h2>
+
+                    <nav>
+                        <ul>
+                            <li>
+                                <a data-dialog="somedialog" class="action-btn trigger text-intro animated-middle fadeInUp">Notify Me!</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!-- Social icons -->
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </section>
+            <!-- END - Home/Left Part -->
+
+            <!-- START - Newsletter Popup -->
+            <div id="somedialog" class="dialog">
+
+                <div class="dialog__overlay"></div>
+
+                <div class="dialog__content">
+
+                    <div class="dialog-inner">
+
+                        <h4>You like taking the lead of line?</h4>
+
+                        <p>Being the first to know always feels great. Signing up to our newsletter gives you an
+                            <strong> exclusive access to our website launch!</strong>
+                        </p>
+
+                        <!-- Newsletter Form -->
+                        <div id="subscribe">
+
+                            <form action="php/notify-me.php" id="notifyMe" method="POST">
+
+                                <div class="form-group">
+
+                                    <div class="controls">
+
+                                        <!-- Field  -->
+                                        <input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField">
+
+                                        <!-- Spinner top left during the submission -->
+                                        <i class="fa fa-spinner opacity-0"></i>
+
+                                        <!-- Button -->
+                                        <button class="btn btn-lg submit">Get notified</button>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                            <!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
+                            <div class="block-message">
+
+                                <div class="message">
+
+                                    <p class="notify-valid"></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- /. Newsletter Form -->
+
+                    </div>
+                    <!-- /. dialog-inner -->
+
+                    <!-- Button Cross to close the Newsletter Popup -->
+                    <button class="close-newsletter" data-dialog-close="">
+                        <i class="icon ion-close-round"></i>
+                    </button>
+
+                </div>
+                <!-- /. dialog__content -->
+
+            </div>
+            <!-- END - Newsletter Popup -->
+
+            <!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+            <!-- ********** Resources jQuery ********** -->
+            <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+
+            <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.easings.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- Accelerated JavaScript animation JS file -->
+            <script src="js/velocity.min.js"></script>
+
+            <!-- Accelerated JavaScript animation UI JS file -->
+            <script src="js/velocity.ui.min.js"></script>
+
+            <!-- Newsletter plugin -->
+            <script src="js/notifyMe.js"></script>
+
+            <!-- Particles effect plugin on the right -->
+            <script src="js/particles-countdown.js"></script>
+
+            <!-- Scroll plugin -->
+            <script src="js/jquery.mousewheel.js"></script>
+
+            <!-- Custom Scrollbar plugin -->
+            <script src="js/jquery.mCustomScrollbar.js"></script>
+
+            <!-- Popup Newsletter Form -->
+            <script src="js/classie.js"></script>
+            <script src="js/dialogFx.js"></script>
+
+            <!-- Countdown plugin -->
+            <script src="js/jquery.countdown.js"></script>
+
+            <script>
+                $("#getting-started")
+                    // Year/Month/Day Hour:Minute:Second
+                    .countdown("2018/10/01 21:00:00", function (event) {
+                        $(this).text(
+                            event.strftime('%D Days %Hh %Mm %Ss')
+                        );
+                    });
+            </script>
+
+            <!-- Main JS File -->
+            <script src="js/main.js"></script>
+
+            <script>
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-60503361-1', 'auto');
+                ga('send', 'pageview');
+            </script>
+
+            <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+
+
+        </div>
+        <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical" style="display: block;">
+            <div class="mCSB_draggerContainer">
+                <div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 611px; display: block; max-height: 625px;"
+                    oncontextmenu="return false;">
+                    <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                </div>
+                <div class="mCSB_draggerRail"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<span class="gr__tooltip">
+    <span class="gr__tooltip-content"></span>
+    <i class="gr__tooltip-logo"></i>
+    <span class="gr__triangle"></span>
+</span>
+
+</html>
