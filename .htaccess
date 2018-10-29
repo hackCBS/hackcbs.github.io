@@ -356,7 +356,7 @@ FileETag None
 # If you'd prefer to use option 2, just comment out all option 1 lines
 # and uncomment option 2.
 
-# IMPORTANT: NEVER USE BOTH RULES AT THE SAME TIME!
+# IMPORTANT:PLEASE NEVER USE BOTH RULES AT THE SAME TIME!
 
 # ----------------------------------------------------------------------
 
